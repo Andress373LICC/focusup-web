@@ -5,6 +5,15 @@ Plataforma gratuita y abierta para ayudar a universitarios a concentrarse al est
 Los estudiantes universitarios enfrentan un gran reto: mantenerse concentrados en un mundo lleno de distracciones digitales.  
 **FocusUp Web** es una herramienta **minimalista, gratuita y open source** que convierte el estudio en una experiencia más enfocada y productiva.
 
+## 🔑 Características actuales
+
+* ⏱️ Temporizador Pomodoro de 25 minutos.
+* ▶️ Iniciar, pausar y reiniciar sesiones.
+* 📊 Contador de sesiones completadas.
+* 💾 Guardado local de sesiones mediante localStorage.
+* 🌐 Proyecto gratuito y de código abierto.
+
+
 ## 🔑 Características principales
 - ⏱️ **Temporizador Pomodoro**: sesiones de estudio efectivas con descansos cortos.  
 - 🚫 **Bloqueo de distracciones**: extensión de navegador que cierra pestañas de redes sociales durante las sesiones.  
