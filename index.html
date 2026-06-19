@@ -1,0 +1,22 @@
+function startTimer() {
+  if (!running) {
+    running = true;
+    timerInterval = setInterval(() => {
+      if (time > 0) {
+        time--;
+        updateTimerDisplay();
+      } else {
+        clearInterval(timerInterval);
+        alert("¡Tiempo terminado! Toma un descanso.");
+        running = false;
+
+        // Guardar sesión completada en localStorage
+        let sesiones = localStorage.getItem("sesionesCompletadas") || 0;
+        sesiones++;
+        localStorage.setItem("sesionesCompletadas", sesiones);
+
+        console.log("Sesiones completadas: " + sesiones);
+      }
+    }, 1000);
+  }
+}
